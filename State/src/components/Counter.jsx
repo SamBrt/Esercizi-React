@@ -3,8 +3,8 @@ import { Button } from "./Button";
 import { CounterDisplay } from "./CounterDisplay";
 
 
-export function Counter({initialValue = 0}){
-    const [counter, setCounter] = useState(0)
+export function Counter({ initialValue }){
+    const [counter, setCounter] = useState(initialValue)
 
     function handleCounterIncrement(){
         setCounter((count) => count + 1)

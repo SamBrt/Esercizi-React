@@ -6,8 +6,8 @@ import Hello from "./Hello.jsx";
 function App(){
   return (
     <div>
-      <Hello/>
-      <Counter/>
+      <Hello />
+      <Counter initialValue={5}/>
     </div>
   )
 }
