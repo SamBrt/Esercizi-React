@@ -7,7 +7,7 @@ function App(){
   return (
     <div>
       <Hello />
-      <Counter initialValue={5}/>
+      <Counter initialValue={0}/>
     </div>
   )
 }
