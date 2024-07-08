@@ -25,3 +25,37 @@ export function Counter({ initialValue }){
         </div>
     )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*export function Counter({ initialValue }){
+    const [counter, setCounter] = useState(initialValue)
+
+    
+// Utilizzando il valore diretto dello stato (potrebbe portare a uno stato non corretto)
+function handleCounterIncrement(){
+    setCounter(counter + 1); // counter potrebbe non avere il valore più aggiornato
+}
+
+// Utilizzando la callback (garantisce lo stato più recente)
+function handleCounterIncrement(){
+    setCounter(prevCounter => prevCounter + 1); // prevCounter è sempre lo stato più recente
+}
+
+
+    return (
+        <div>
+            <CounterDisplay counter={counter}/>
+            <Button onClick={handleCounterIncrement} label={"Aumenta"}/>
+        </div>
+    )
+}*/
