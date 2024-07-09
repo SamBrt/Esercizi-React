@@ -32,10 +32,6 @@ export function Login() {
         });
     }
 
-    useEffect(()=>{
-        console.log(data)
-    }, [data])
-
     return (
         <div>
             <form id="login-form">
