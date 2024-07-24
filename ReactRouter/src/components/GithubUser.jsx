@@ -5,7 +5,6 @@ const GithubUser = ({ username }) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch user data from GitHub API
     const fetchUserData = async () => {
       try {
         const response = await fetch(`https://api.github.com/users/${username}`);
