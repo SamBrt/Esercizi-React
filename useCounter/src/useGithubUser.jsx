@@ -7,7 +7,7 @@ export function useGithubUser(username) {
   useEffect(() => {
     if (!username) return;
 
-    // Fetch user data from GitHub API
+
     const fetchUserData = async () => {
       try {
         const response = await fetch(`https://api.github.com/users/${username}`);
